@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    height: 100px;
+    background-color: #95a5a6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: 900;
+    font-style: italic;
+    background-color: lime;
+    width: 5em;
+    height: 2em;
+    text-align: center;
+    border-radius: 100%;
+    text-shadow: white;
+}
+.logo a{
+    color: black;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.menu a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s linear;
+}
+
+ .menu a:hover:before{
+    width: 100%;
+    background-color: green;
+} 
+
+.dropdown-menu a{
+    color: #000;
+}
+
+.login-btn{
+    padding: 10px;
+    border: none;
+    /* margin: 8px; */
+    border-radius: 100px;
+    background-color: white;
+}
+
+.login-btn a {
+    padding: 15px;
+    text-decoration: none;
+    position: relative;
+    font-size: 1.5rem;
+    color: green;
+    text-transform: uppercase;
+}
+
+.login-btn:hover a{
+    color: white;
+}
+
+.login-btn:hover{
+    background-color: green;
+}
+
+.login-btn a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s linear;
+}
+
+.login-btn a:hover:before{
+    width: 100%;
+    background-color: white;
+} 
+
+.card-mb-3{
+    border: none;
+}
+
+.sell-btn a:hover {
+    text-decoration: none;
+}
+
+.card-title-heading-1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.card-text-of-heading-1{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+
+
+.card-group{
+    padding-left: 150px;
+    width: 90%;
+    border: none;
+}
+
+.card-deck{
+    width: 100%;
+}
+
+.card{
+padding: 20px;
+box-shadow: 2px 2px 2px 2px #dfe6e9;
+}
+
+ .card-body{
+    padding: 20px;
+} 
+
+.card:hover{
+    background-color: #3EFC02;
+    cursor: pointer;
+    color: white;
+}
+
+.card{
+    margin: 30px;
+}
+
+.after-card-para{
+    text-align: center;
+}
+
+.btn{
+    color: green;
+    background-color: white;
+    padding: 10px;
+     /* margin: 20px;  */
+     width: 25%;
+}
+
+.down-arrow a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.down-arrow a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s linear;
+}
+
+.down-arrow a:hover:before{
+    background-color: green;
+}
+
+.fas{
+    padding-left: 50%;
+    padding-top: 0%;
+    padding-bottom: 10%;
+}
+
+.service-btn{
+    padding: 15px;
+    background-color: white;
+    color: green;
+    border-radius: 8px;
+    border: 1px solid green;
+    align-items: center;
+    width: 13%;
+}
+
+.service-btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.for-clients{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.find-talent{
+    text-align: center;
+}
+
+.find-talent-para{
+    text-align: center;
+}
+
+
+.services{
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.services > ul > li {
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+    border: 1px solid #000;
+    width: 200px;
+    border-radius: 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #7f8fa6;
+}
+
+.services > ul > li:hover{
+    cursor: pointer;
+    background-color: green;
+    color: #f5f6fa;
+}
+
+.card-group{
+    width: 80%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #192a56;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+.footer-icon > a{
+    color: #f5f6fa;
+}
+
+.footer-icon > hr{
+    color: #f5f6fa;
+}
+
+.footer-list > ul >li{
+    list-style-type: none;
+}
